@@ -390,8 +390,8 @@ with tab2:
                         mime='image/png')
                 if descargar:
                         guardarimagen()
-        #with col1:
-               #st.image('./graficoviejo.png', 'última descarga',width=300)                
+        with col1:
+               st.image('./grafico.png', 'última descarga',width=300)                
 with tab3:
         """
         #### Autor: Alejandro Rivas \n
