@@ -165,13 +165,13 @@ with tab1:
     En la barra lateral se encuetra el menú de opciones, con el cual
     podrán personalizarse todos elementos del gráfico"""
 
-    st.image('./Grafica 1.jpg','Fig. 1 Gráfico personalizado', width=600,use_column_width=20)
+    st.image('./Imagenes/Grafica 1.jpg','Fig. 1 Gráfico personalizado', width=600,use_column_width=20)
     """Al ingresar la función en formato de texto, ésta se mostrará
     en la ventana gráfica, y una vez terminada la personalización,
     podrá exportarse en formato de imagen haciendo click en el botón de descarga:"""
     col1,col2,col3=st.columns(3)
     with col2:
-        st.image('./Boton descargar.jpg',"Fig.2 Botón de descarga")
+        st.image('./Imagenes/Boton descargar.jpg',"Fig.2 Botón de descarga")
 
     """
     ### Sintaxis para la introducción de funciones
@@ -222,12 +222,12 @@ with tab1:
     sus valores también separados por coma, como se muestra en la figura 3"""
     col1, col2 = st.columns(2)
     with col1:
-        st.image('./imagen 3.jpg', 'Fig.3',width=250)
+        st.image('./Imagenes/imagen 3.jpg', 'Fig.3',width=250)
         """Para actualizar los valores, debe darse entrada con la combinación de las teclas **CTRL+ENTER**. 
         Se muestran en forma permanente los valores actuales de las constantes predefinidas.
         """
     with col2:
-        st.image('./imagen 4.jpg','Fig.4', width=250)
+        st.image('./Imagenes/imagen 4.jpg','Fig.4', width=250)
 # página de gráficas
     """
     Tambien se permite definir parámetros con cualquier nombre, exceptuando las palabras reservadas de *Python* y la letra '*x*',
@@ -235,7 +235,7 @@ with tab1:
     Borrando el campo de texto y con **CRTL+ENTER**, se reinician los valores predefinidos.
     También se admiten operaciones matemáticas con los operadores y funciones usuales.
     """
-    st.image('./imagen 5.jpg','Fig.5', width=250)
+    st.image('./Imagenes/imagen 5.jpg','Fig.5', width=250)
 
     """#### Ejemplo de uso de parámetros:  *Tiro oblicuo*
     Se definen las constantes v0: velocidad inicial*; y0: altura inicial;
@@ -245,7 +245,7 @@ with tab1:
     """
 
     
-    st.image('./imagen 8.jpg','Fig.6')
+    st.image('./Imagenes/imagen 8.jpg','Fig.6')
 with tab2:
         
         def parentesis(func):
