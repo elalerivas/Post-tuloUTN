@@ -238,7 +238,7 @@ with tab1:
     st.image('./imagen 5.jpg','Fig.5', width=250)
 
     """#### Ejemplo de uso de parámetros:  *Tiro oblicuo*
-    Se definen las constantes v0: velocidad inicial*; y0: altura inicial;
+    Se definen las constantes v0: velocidad inicial; y0: altura inicial;
     alfa: ángulo de disparo, en grados; y las componentes de v0, v0x y v0y;
     y se define la función del tiempo 'x', y, la altura, como:
     f(x) = y0 + v0y * x - 0.5 * gravedad * pow(x,2)
