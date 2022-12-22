@@ -385,7 +385,7 @@ with tab2:
         with col4:
                 def guardarimagen():
                       plt.savefig('graficoviejo.png')  
-                with open('.\grafico.png', 'rb') as archivo:
+                with open('./grafico.png', 'rb') as archivo:
                         descargar=st.download_button('Descargar gráfico', archivo, file_name='Grafico_SP2D.png',
                         mime='image/png')
                 if descargar:
