@@ -381,7 +381,7 @@ with tab2:
         ff #muestra graficos
         plt.savefig('https://github.com/elalerivas/Post-tuloUTN/grafico23.png')
         col1,col2,col3,col4=st.columns(4)
-        
+        st.write('acá)
         with col4:
                 def guardarimagen():
                       plt.savefig('https://github.com/elalerivas/Post-tuloUTN/graficoviejo.png')  
