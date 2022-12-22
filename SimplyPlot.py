@@ -379,7 +379,7 @@ with tab2:
         
 
         ff #muestra graficos
-        plt.savefig('grafico.png')
+        plt.savefig('grafico23.png')
         col1,col2,col3,col4=st.columns(4)
         
         with col4:
