@@ -391,7 +391,7 @@ with tab2:
                 if descargar:
                         guardarimagen()
         with col1:
-               st.image('./graficoviejo.png', 'última descarga',width=300)                
+               st.image('graficoviejo.png', 'última descarga',width=300)                
 with tab3:
         """
         #### Autor: Alejandro Rivas \n
